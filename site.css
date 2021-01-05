@@ -23,6 +23,12 @@ A:visited {
     margin-left: -0.4%;
     margin-top: -0.4%;
     position: fixed;
+    
+    @media handheld{
+        .he1{
+        height:400px;
+        }
+    }
 }
 .he1_1{
     width:9%;
