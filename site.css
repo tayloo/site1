@@ -266,24 +266,24 @@ A:visited {
     }
     .about-text1{
     height: auto;
-    width: 200px;
+    width: auto;
     color: #2C2C2C;
     color:white;
     font-style: CENTURY SCHOOLBOOK;
-    font-size:42px;
-    padding-top: 5%;
-    padding-left: 44%;
+    font-size:6em;
+    padding-top: 15%;
+    padding-left: 30%;
 }
 .about-text2{
     height: auto;
     width: auto;
-    padding-top:7%;
+    padding-top:20%;
     padding-left: 0%;
     color:white;
     text-align:center;
     font-family:DejaVu Sans Mono, monospace;
     font-style: CENTURY SCHOOLBOOK;
-    font-size:34px;
+    font-size:3.5em;
 }
     
 }
@@ -320,24 +320,24 @@ A:visited {
     }
     .about-text1{
     height: auto;
-    width: 200px;
+    width: auto;
     color: #2C2C2C;
     color:white;
     font-style: CENTURY SCHOOLBOOK;
-    font-size:42px;
-    padding-top: 5%;
-    padding-left: 44%;
+    font-size:6em;
+    padding-top: 15%;
+    padding-left: 30%;
 }
 .about-text2{
     height: auto;
     width: auto;
-    padding-top:7%;
+    padding-top:20%;
     padding-left: 0%;
     color:white;
     text-align:center;
     font-family:DejaVu Sans Mono, monospace;
     font-style: CENTURY SCHOOLBOOK;
-    font-size:34px;
+    font-size:3.5em;
 }
     
 }
