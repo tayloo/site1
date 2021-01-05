@@ -25,20 +25,7 @@ A:visited {
     margin-top: -0.4%;
     position: fixed;
     }
-}
-@media screen and (max-device-width: 479px) and (max-device-height: 750px) and (orientation: portrait) { /* Телефон */
-    .he1{
-    border: 0px solid white;
-    width: 100.8%;
-    height: 120px;
-    background-color: #171a21;
-    margin-left: -1%;
-    margin-top: -1%;
-    position: fixed;
-        }
-}
-@media only screen  and (min-width: 1324px){    /* Комп */
-.he1_1{
+    .he1_1{
     width:9%;
     height: 40%;
     text-align: center;
@@ -49,28 +36,7 @@ A:visited {
     margin-bottom: 13px;
     float: left;   
     }
-}
- @media screen and (max-device-width: 479px) and (max-device-height: 750px) and (orientation: portrait){    /* Телефон */
-       .he1_1{
-    width:20%;
-    height: 30%;
-    text-align: center;
-    border: 0px solid red;
-    margin-top:5%;
-    margin-left: 8%;
-    padding-top: 0px;
-    margin-bottom: 13px;
-    float: left;   
-           font-size: 1.8em;
-    } 
-    }
-.he1_1:hover{
-    background-color:#282E3A;
-     font-weight: bold;
-    font-size: 2em;
-}
-    @media only screen  and (min-width: 1324px){            /* Комп */
-.he1_2{
+    .he1_2{
     width:9%;
     height: 40%;
     text-align: center;
@@ -82,8 +48,29 @@ A:visited {
     float: left; 
         }
 }
-@media screen and (max-device-width: 479px) and (max-device-height: 750px) and (orientation: portrait){     /* Телефон */
-       .he1_2{
+@media screen and (max-device-width: 479px) and (max-device-height: 750px) and (orientation: portrait) { /* Телефон 1*/
+    .he1{
+    border: 0px solid white;
+    width: 100.8%;
+    height: 120px;
+    background-color: #171a21;
+    margin-left: -1%;
+    margin-top: -1%;
+    position: fixed;
+        }
+     .he1_1{
+    width:20%;
+    height: 30%;
+    text-align: center;
+    border: 0px solid red;
+    margin-top:5%;
+    margin-left: 8%;
+    padding-top: 0px;
+    margin-bottom: 13px;
+    float: left;   
+           font-size: 1.8em;
+    } 
+    .he1_2{
     width:23%;
     height: 30%;
     text-align: center;
@@ -95,14 +82,58 @@ A:visited {
     float: left;   
            font-size: 1.8em;
     } 
+    
 }
+@media screen and (min-device-width: 480px) and (max-device-width: 820px) and (min-device-height: 751px) and (max-device-height: 1400px) and (orientation: portrait) { /* Телефон 2*/
+    .he1{
+    border: 0px solid white;
+    width: 100.8%;
+    height: 120px;
+    background-color: #171a21;
+    margin-left: -1%;
+    margin-top: -1%;
+    position: fixed;
+        }
+     .he1_1{
+    width:20%;
+    height: 30%;
+    text-align: center;
+    border: 0px solid red;
+    margin-top:5%;
+    margin-left: 8%;
+    padding-top: 0px;
+    margin-bottom: 13px;
+    float: left;   
+           font-size: 1.8em;
+    } 
+    .he1_2{
+    width:23%;
+    height: 30%;
+    text-align: center;
+    border: 0px solid red;
+    margin-top:5%;
+    margin-left: 10%;
+    padding-top: 0px;
+    margin-bottom: 13px;
+    float: left;   
+           font-size: 1.8em;
+    } 
+    
+}
+ 
+.he1_1:hover{
+    background-color:#282E3A;
+     font-weight: bold;
+    font-size: 2em;
+}
+
 .he1_2:hover{
     background-color:#282E3A;
      font-weight: bold;
     font-size: 2em;
 }
 
-                                                                                                /*MAIN*/
+/*MAIN*/                                                                                         /*MAIN*/
 
 @media only screen  and (min-width: 1324px){                                                    /* Комп */
 .info1{
@@ -201,7 +232,7 @@ A:visited {
     }
 }
 
-@media screen and (max-device-width: 479px) and (max-device-height: 750px) and (orientation: portrait){         /* Телефон */
+@media screen and (max-device-width: 479px) and (max-device-height: 750px) and (orientation: portrait){         /* Телефон 1*/
     
     .info1{
     height:87%;
@@ -227,8 +258,62 @@ A:visited {
 }
  .about{
     height:80%;
-    width: 100.8%;
-    margin-left: -0.4%;
+    width: 102%;
+    margin-left: -1%;
+    background-image: url("about2.jpg");
+    background-repeat: no-repeat;   
+     background-size:cover;
+    }
+    .about-text1{
+    height: auto;
+    width: 200px;
+    color: #2C2C2C;
+    color:white;
+    font-style: CENTURY SCHOOLBOOK;
+    font-size:42px;
+    padding-top: 5%;
+    padding-left: 44%;
+}
+.about-text2{
+    height: auto;
+    width: auto;
+    padding-top:7%;
+    padding-left: 0%;
+    color:white;
+    text-align:center;
+    font-family:DejaVu Sans Mono, monospace;
+    font-style: CENTURY SCHOOLBOOK;
+    font-size:34px;
+}
+    
+}
+@media screen and (min-device-width: 480px) and (max-device-width: 820px) and (min-device-height: 751px) and (max-device-height: 1400px) and (orientation: portrait) { /* Телефон 2*/
+ .info1{
+    height:87%;
+    width: 102%;
+    background-image: url("telefon.jpeg");
+    margin-left: -1%;
+    margin-top: 3px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: 38% 50%;
+    
+    }
+.info1-text1{
+    color:white;
+     height: auto;
+     width: 90%;
+     padding-top:57%;
+    padding-left: 5%;
+    font-size: 7em;
+    font-family:DejaVu Sans Mono, monospace;
+    text-align: center;
+    
+}
+ .about{
+    height:80%;
+    width: 102%;
+    margin-left: -1%;
     background-image: url("about2.jpg");
     background-repeat: no-repeat;   
      background-size:cover;
