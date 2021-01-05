@@ -15,7 +15,7 @@ A:visited {
     margin-top: 46%;
     margin-left: 95%;
 }
-@media all and (not handheld){
+@media screen{
 .he1{
     border: 0px solid white;
     width: 100.8%;
@@ -27,7 +27,7 @@ A:visited {
     }
     @media handheld{
         .he1{
-        height:400px;
+        height:120px;
         }
     }
 }
