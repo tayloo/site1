@@ -1,3 +1,14 @@
+/*
+
+Комп - min.width - 1320px;
+Телефон 1 - max.width - 410px;
+Телефон 2 - width: 375px - 750px; height: 730px - 1300px;
+Планшет Ipad - width: 768px - 1366px; height: 768px - 1366px; (iPad, iPad Pro)
+Планшет Ipad 2 - width: 900px - 1440px; height: 900px - 1440px; (iPad Pro - альбомная, desktop)
+
+*/
+
+
 body{
     background-color: #ECE8E8;
     font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif;
@@ -11,7 +22,7 @@ A:visited {
     color: white;
 }
 
-@media only screen  and (min-width: 1324px){ /* Комп */
+@media only screen  and (min-width: 1320px){ /* Комп */
 .he1{
     border: 0px solid white;
     width: 100.8%;
@@ -289,6 +300,64 @@ A:visited {
     background-color:#282E3A;
      font-weight: bold;
     font-size: 2em;
+    }
+    
+}
+
+@media only screen and (min-device-width: 900px) and (max-device-width: 1440px) and (max-device-height: 1440px)  and (min-device-height: 900px) and (orientation: landscape) {  /* Планшет Ipad 2 альбомная*/
+    
+    .he1{
+    border: 0px solid white;
+    width: 100.8%;
+    height: 9%;
+    background-color: #171a21;
+    margin-left: -1%;
+    margin-top: -1%;
+    position: fixed;
+        }
+     .he1_1{
+    width:20%;
+    height: 40%;
+    text-align: center;
+    border: 0px solid red;
+    margin-top:1.5%;
+    margin-left: 7%;
+    padding-top: 1%;
+    margin-bottom: 13px;
+    float: left;   
+           font-size: 1.5em;
+    } 
+    .he1_2{
+    width:28%;
+    height: 40%;
+    text-align: center;
+    border: 0px solid red;
+    margin-top:1.5%;
+    margin-left: 7%;
+    padding-top: 1%;
+    margin-bottom: 13px;
+    float: left;   
+           font-size: 1.5em;
+    } 
+    .ontop{
+        width: 65px;
+        height: 65px;
+    position: fixed;
+     bottom: 30;
+    margin-left: 90%;
+        display: inline;
+        
+}
+    .he1_1:hover{
+    background-color:#282E3A;
+     font-weight: bold;
+    font-size: 1.7em;
+}
+
+.he1_2:hover{
+    background-color:#282E3A;
+     font-weight: bold;
+    font-size: 1.7em;
     }
     
 }
@@ -790,7 +859,101 @@ A:visited {
         
     }
     
+}
+
+@media only screen and (min-device-width: 900px) and (max-device-width: 1440px) and (max-device-height: 1440px)  and (min-device-height: 900px) and (orientation: landscape) {  /* Планшет Ipad 2 альбомная*/
     
+     .info1{                                                 /* First */
+    height:97%;
+    width: 102%;
+    background-image: url("telefon.jpeg");
+    margin-left: -1%;
+    margin-top: 3px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+    
+    }
+.info1-text1{
+    color:white;
+     height: auto;
+     width: 60%;
+     padding-top:25%;
+    padding-left: 5%;
+    font-size: 5em;
+    font-family:DejaVu Sans Mono, monospace;
+    line-height: 1.5em;
+    
+}
+ .about{                                        /* About */
+    height:85%;
+    width: 102%;
+    margin-left: -1%;
+    background-image: url("about2.jpg");
+    background-repeat: no-repeat;   
+     background-size:cover;
+    }
+    .about-text1{
+    height: auto;
+    width: auto;
+    color: #2C2C2C;
+    color:white;
+    font-style: CENTURY SCHOOLBOOK;
+    font-size:4em;
+    padding-top: 8%;
+    padding-left: 37%;
+}
+.about-text2{
+    height: auto;
+    width: 85%;
+    padding-top:5%;
+    padding-left: 7%;
+    color:white;
+    text-align:center;
+    font-family:DejaVu Sans Mono, monospace;
+    font-style: CENTURY SCHOOLBOOK;
+    font-size:2.5em;
+}
+    .assort{                                    /* Assort */
+    height:90%;
+    width: 102%;
+    margin-left: -1%;
+    background: #1b2838;
+}
+.assort-text{
+    height: auto;
+    width: auto;
+    color:white;
+    font-style: CENTURY SCHOOLBOOK;
+    font-size:3.7em;
+    padding-top: 7%;
+    padding-left: 35%;
+    margin-bottom: 0%;
+}
+    .tovar1{
+    color:white;
+    text-align: center;
+    font-size:2.2em;
+    width:33%;
+    height:auto;
+    float: left;
+    margin-left:0%;
+    margin-top: 10%;
+}
+
+.tovar-1{
+    width:80%;
+    height:auto;
+    padding-top:4%;
+    margin-left:9%;
+    margin-bottom: 0.5%;
+    }
+    .tovar_img{
+       display: inline;
+  width: 85%;
+  height: 25%;
+        
+    }
     
 }
 
@@ -1064,6 +1227,64 @@ A:visited {
     float: left;
     text-align:center;
      margin-top:4%;
+    margin-left:10%;
+    padding-top: 1%;
+    border: 0px;
+    font-size: 1em;
+}
+.foot1-3:hover{
+    background-color:#646464;
+     font-weight: bold;
+    } 
+    
+}
+
+
+@media only screen and (min-device-width: 900px) and (max-device-width: 1440px) and (max-device-height: 1440px)  and (min-device-height: 900px) and (orientation: landscape) {  /* Планшет Ipad 2 альбомная*/
+    
+  .foot1{
+    height: 10%;
+    background-color:#171a21;
+    width: 102%;
+    margin-left: -1%;
+}
+.foot1-1{
+    color:white;
+    width: 25%;
+    height: 50px;
+    text-align:center;
+    font-family:DejaVu Sans Mono, monospace;
+   /* padding-top: 1.5%;
+    padding-left: 17%;*/
+    padding-top: 0%;
+    margin-left:4%;
+    font-size: 1em;
+    float:left;
+}
+.foot1-2{
+     color:white;
+    width: 25%;
+    height: 75px;
+    text-align:center;
+    font-family:DejaVu Sans Mono, monospace;
+   /* padding-top: 0.5%;
+    padding-left:5%;*/
+    float: left;
+    padding-top: 1%;
+    margin-left:10%;
+    font-size: 1em;
+    margin-top:0%;
+}
+.foot1-3{
+    color:white;
+     /*padding-top: 2%;
+    padding-left:7%;*/
+     width: 20%;
+    height: 25px;
+    font-family:DejaVu Sans Mono, monospace;
+    float: left;
+    text-align:center;
+     margin-top:2%;
     margin-left:10%;
     padding-top: 1%;
     border: 0px;
