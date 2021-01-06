@@ -61,11 +61,11 @@ A:visited {
     background-color:#282E3A;
      font-weight: bold;
     font-size: 1.2em;
-}
+    }
     
 }
 
-@media screen and (max-device-width: 479px) and (max-device-height: 850px) and (orientation: portrait) { /* Телефон 1*/
+@media screen and (max-device-width: 410px) and (max-device-height: 750px) and (orientation: portrait) { /* Телефон 1*/
     .he1{
     border: 0px solid white;
     width: 100.8%;
@@ -100,11 +100,11 @@ A:visited {
            font-size: 1.8em;
     } 
     .ontop{
-         width: 85px;
-        height: 85px;
+         width: 115px;
+        height: 115px;
     position: fixed;
      bottom: 60;
-    margin-left: 90%;
+    margin-left: 85%;
         display: inline;
     }
     .he1_1:hover{
@@ -117,11 +117,11 @@ A:visited {
     background-color:#282E3A;
      font-weight: bold;
     font-size: 2em;
-}
+    }
     
 }
 
-@media screen and (min-device-width: 480px) and (max-device-width: 820px) and (min-device-height: 851px) and (max-device-height: 1400px) and (orientation: portrait) { /* Телефон 2*/
+@media screen and (min-device-width: 375px) and (max-device-width: 750px) and (min-device-height: 730px) and (max-device-height: 1300px) and (orientation: portrait) { /* Телефон 2*/
     .he1{
     border: 0px solid white;
     width: 100.8%;
@@ -156,10 +156,125 @@ A:visited {
            font-size: 1.8em;
     } 
     .ontop{
-        width: 85px;
-        height: 85px;
+        width: 115px;
+        height: 115px;
     position: fixed;
      bottom: 60;
+    margin-left: 85%;
+        display: inline;
+        
+}
+    .he1_1:hover{
+    background-color:#282E3A;
+     font-weight: bold;
+    font-size: 2em;
+}
+
+.he1_2:hover{
+    background-color:#282E3A;
+     font-weight: bold;
+    font-size: 2em;
+    }
+    
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (max-device-height: 1366px)  and (min-device-height: 768px) and (orientation: portrait) {  /* Планшет Ipad*/
+ 
+.he1{
+    border: 0px solid white;
+    width: 100.8%;
+    height: 9%;
+    background-color: #171a21;
+    margin-left: -1%;
+    margin-top: -1%;
+    position: fixed;
+        }
+     .he1_1{
+    width:20%;
+    height: 45%;
+    text-align: center;
+    border: 0px solid red;
+    margin-top:2.5%;
+    margin-left: 7%;
+    padding-top: 2%;
+    margin-bottom: 13px;
+    float: left;   
+           font-size: 2em;
+    } 
+    .he1_2{
+    width:28%;
+    height: 45%;
+    text-align: center;
+    border: 0px solid red;
+    margin-top:2.5%;
+    margin-left: 7%;
+    padding-top: 2%;
+    margin-bottom: 13px;
+    float: left;   
+           font-size: 2em;
+    } 
+    .ontop{
+        width: 115px;
+        height: 115px;
+    position: fixed;
+     bottom: 110;
+    margin-left: 85%;
+        display: inline;
+        
+}
+    .he1_1:hover{
+    background-color:#282E3A;
+     font-weight: bold;
+    font-size: 2.5em;
+}
+
+.he1_2:hover{
+    background-color:#282E3A;
+     font-weight: bold;
+    font-size: 2.5em;
+    }
+    
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (max-device-height: 1024px)  and (min-device-height: 768px) and (orientation: landscape) {  /* Планшет Ipad альбомная*/
+ 
+.he1{
+    border: 0px solid white;
+    width: 100.8%;
+    height: 11%;
+    background-color: #171a21;
+    margin-left: -1%;
+    margin-top: -1%;
+    position: fixed;
+        }
+     .he1_1{
+    width:20%;
+    height: 40%;
+    text-align: center;
+    border: 0px solid red;
+    margin-top:3%;
+    margin-left: 7%;
+    padding-top: 0%;
+    margin-bottom: 13px;
+    float: left;   
+           font-size: 1.5em;
+    } 
+    .he1_2{
+    width:28%;
+    height: 40%;
+    text-align: center;
+    border: 0px solid red;
+    margin-top:3%;
+    margin-left: 7%;
+    padding-top: 0%;
+    margin-bottom: 13px;
+    float: left;   
+           font-size: 1.5em;
+    } 
+    .ontop{
+        width: 65px;
+        height: 65px;
+    position: fixed;
+     bottom: 30;
     margin-left: 90%;
         display: inline;
         
@@ -174,10 +289,9 @@ A:visited {
     background-color:#282E3A;
      font-weight: bold;
     font-size: 2em;
-}
+    }
     
 }
- 
 
 
 /*MAIN*/                                                                                         /*MAIN*/
@@ -292,7 +406,7 @@ A:visited {
 }
 }
 
-@media screen and (max-device-width: 479px) and (max-device-height: 850px) and (orientation: portrait){         /* Телефон 1*/
+@media screen and (max-device-width: 410px) and (max-device-height: 750px) and (orientation: portrait){         /* Телефон 1*/
     
     .info1{
     height:97%;
@@ -388,8 +502,9 @@ A:visited {
     }
     
 }
-@media screen and (min-device-width: 480px) and (max-device-width: 820px) and (min-device-height: 851px) and (max-device-height: 1400px) and (orientation: portrait) {  /* Телефон 2*/
- .info1{
+@media screen and (min-device-width: 375px) and (max-device-width: 750px) and (min-device-height: 730px) and (max-device-height: 1300px) and (orientation: portrait) {  /* Телефон 2*/
+ 
+    .info1{
     height:97%;
     width: 102%;
     background-image: url("telefon.jpeg");
@@ -484,6 +599,203 @@ A:visited {
     
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (max-device-height: 1366px)  and (min-device-height: 768px) and (orientation: portrait) {  /* Планшет Ipad*/
+ 
+    .info1{                                                 /* First */
+    height:97%;
+    width: 102%;
+    background-image: url("telefon.jpeg");
+    margin-left: -1%;
+    margin-top: 3px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: 38% 50%;
+    
+    }
+.info1-text1{
+    color:white;
+     height: auto;
+     width: 90%;
+     padding-top:40%;
+    padding-left: 5%;
+    font-size: 7em;
+    font-family:DejaVu Sans Mono, monospace;
+    text-align: center;
+    line-height: 1.5em;
+    
+}
+ .about{                                        /* About */
+    height:90%;
+    width: 102%;
+    margin-left: -1%;
+    background-image: url("about2.jpg");
+    background-repeat: no-repeat;   
+     background-size:cover;
+    }
+    .about-text1{
+    height: auto;
+    width: auto;
+    color: #2C2C2C;
+    color:white;
+    font-style: CENTURY SCHOOLBOOK;
+    font-size:6em;
+    padding-top: 10%;
+    padding-left: 30%;
+}
+.about-text2{
+    height: auto;
+    width: 92%;
+    padding-top:10%;
+    padding-left: 5%;
+    color:white;
+    text-align:center;
+    font-family:DejaVu Sans Mono, monospace;
+    font-style: CENTURY SCHOOLBOOK;
+    font-size:3.5em;
+}
+    .assort{                                    /* Assort */
+    height:140%;
+    width: 102%;
+    margin-left: -1%;
+    background: #1b2838;
+}
+.assort-text{
+    height: auto;
+    width: auto;
+    color:white;
+    font-style: CENTURY SCHOOLBOOK;
+    font-size:5em;
+    padding-top: 12%;
+    padding-left: 23%;
+    margin-bottom: 2%;
+}
+    .tovar1{
+    color:white;
+    text-align: center;
+    font-size:3em;
+    width:auto;
+    height:auto;
+    float: left;
+    margin-left:0%;
+    margin-top: 5%;
+}
+
+.tovar-1{
+    width:auto;
+    height:auto;
+    padding-top:1%;
+    margin-left:0%;
+    
+    }
+    .tovar_img{
+       display: inline;
+  width: 60%;
+  height: 22%;
+    }
+    
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (max-device-height: 1024px)  and (min-device-height: 768px) and (orientation: landscape) {  /* Планшет Ipad альбомная*/
+ 
+     .info1{                                                 /* First */
+    height:97%;
+    width: 102%;
+    background-image: url("telefon.jpeg");
+    margin-left: -1%;
+    margin-top: 3px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: 38% 50%;
+    
+    }
+.info1-text1{
+    color:white;
+     height: auto;
+     width: 90%;
+     padding-top:20%;
+    padding-left: 5%;
+    font-size: 5em;
+    font-family:DejaVu Sans Mono, monospace;
+    text-align: center;
+    line-height: 1.5em;
+    
+}
+ .about{                                        /* About */
+    height:95%;
+    width: 102%;
+    margin-left: -1%;
+    background-image: url("about2.jpg");
+    background-repeat: no-repeat;   
+     background-size:cover;
+    }
+    .about-text1{
+    height: auto;
+    width: auto;
+    color: #2C2C2C;
+    color:white;
+    font-style: CENTURY SCHOOLBOOK;
+    font-size:4em;
+    padding-top: 8%;
+    padding-left: 37%;
+}
+.about-text2{
+    height: auto;
+    width: 85%;
+    padding-top:5%;
+    padding-left: 7%;
+    color:white;
+    text-align:center;
+    font-family:DejaVu Sans Mono, monospace;
+    font-style: CENTURY SCHOOLBOOK;
+    font-size:2.5em;
+}
+    .assort{                                    /* Assort */
+    height:95%;
+    width: 102%;
+    margin-left: -1%;
+    background: #1b2838;
+}
+.assort-text{
+    height: auto;
+    width: auto;
+    color:white;
+    font-style: CENTURY SCHOOLBOOK;
+    font-size:3.7em;
+    padding-top: 7%;
+    padding-left: 30%;
+    margin-bottom: 0%;
+}
+    .tovar1{
+    color:white;
+    text-align: center;
+    font-size:2.2em;
+    width:33%;
+    height:auto;
+    float: left;
+    margin-left:0%;
+    margin-top: 10%;
+}
+
+.tovar-1{
+    width:80%;
+    height:auto;
+    padding-top:4%;
+    margin-left:9%;
+    margin-bottom: 0.5%;
+    }
+    .tovar_img{
+       display: inline;
+  width: 85%;
+  height: 25%;
+        
+    }
+    
+    
+    
+}
+
+
+
    /*Футтер*/                                                                                          /*Футтер*/
 @media only screen  and (min-width: 1324px){                                                          /* Комп */
 .foot1{
@@ -537,7 +849,7 @@ A:visited {
 }
     
     
-    @media screen and (max-device-width: 479px) and (max-device-height: 850px) and (orientation: portrait) { /* Телефон 1*/
+    @media screen and (max-device-width: 410px) and (max-device-height: 750px) and (orientation: portrait) { /* Телефон 1*/
         
       .foot1{
     height: 12%;
@@ -594,7 +906,7 @@ A:visited {
             
     }
 
-@media screen and (min-device-width: 480px) and (max-device-width: 820px) and (min-device-height: 851px) and (max-device-height: 1400px) and (orientation: portrait) {  /* Телефон 2*/
+@media screen and (min-device-width: 375px) and (max-device-width: 750px) and (min-device-height: 730px) and (max-device-height: 1300px) and (orientation: portrait) { /* Телефон 2*/
     
      .foot1{
     height: 12%;
@@ -648,4 +960,118 @@ A:visited {
     background-color:#646464;
      font-weight: bold;
     } 
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (max-device-height: 1366px)  and (min-device-height: 768px) and (orientation: portrait) {  /* Планшет Ipad*/
+    
+    .foot1{
+    height: 15%;
+    background-color:#171a21;
+    width: 102%;
+    margin-left: -1%;
+}
+.foot1-1{
+    color:white;
+    width: 25%;
+    height: 50px;
+    text-align:center;
+    font-family:DejaVu Sans Mono, monospace;
+   /* padding-top: 1.5%;
+    padding-left: 17%;*/
+    padding-top: 5%;
+    margin-left:4%;
+    font-size: 1.4em;
+    float:left;
+}
+.foot1-2{
+     color:white;
+    width: 25%;
+    height: 75px;
+    text-align:center;
+    font-family:DejaVu Sans Mono, monospace;
+   /* padding-top: 0.5%;
+    padding-left:5%;*/
+    float: left;
+    padding-top: 1%;
+    margin-left:10%;
+    font-size: 1.4em;
+    margin-top:1%;
+}
+.foot1-3{
+    color:white;
+     /*padding-top: 2%;
+    padding-left:7%;*/
+     width: 20%;
+    height: 25px;
+    font-family:DejaVu Sans Mono, monospace;
+    float: left;
+    text-align:center;
+     margin-top:4%;
+    margin-left:10%;
+    padding-top: 4%;
+    border: 0px;
+    font-size: 1.4em;
+}
+.foot1-3:hover{
+    background-color:#646464;
+     font-weight: bold;
+    } 
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (max-device-height: 1024px)  and (min-device-height: 768px) and (orientation: landscape) {  /* Планшет Ipad альбомная*/
+    
+     .foot1{
+    height: 15%;
+    background-color:#171a21;
+    width: 102%;
+    margin-left: -1%;
+}
+.foot1-1{
+    color:white;
+    width: 25%;
+    height: 50px;
+    text-align:center;
+    font-family:DejaVu Sans Mono, monospace;
+   /* padding-top: 1.5%;
+    padding-left: 17%;*/
+    padding-top: 2.5%;
+    margin-left:4%;
+    font-size: 1em;
+    float:left;
+}
+.foot1-2{
+     color:white;
+    width: 25%;
+    height: 75px;
+    text-align:center;
+    font-family:DejaVu Sans Mono, monospace;
+   /* padding-top: 0.5%;
+    padding-left:5%;*/
+    float: left;
+    padding-top: 1%;
+    margin-left:10%;
+    font-size: 1em;
+    margin-top:1%;
+}
+.foot1-3{
+    color:white;
+     /*padding-top: 2%;
+    padding-left:7%;*/
+     width: 20%;
+    height: 25px;
+    font-family:DejaVu Sans Mono, monospace;
+    float: left;
+    text-align:center;
+     margin-top:4%;
+    margin-left:10%;
+    padding-top: 1%;
+    border: 0px;
+    font-size: 1em;
+}
+.foot1-3:hover{
+    background-color:#646464;
+     font-weight: bold;
+    } 
+    
 }
