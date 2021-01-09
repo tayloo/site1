@@ -36,23 +36,27 @@ A:visited {
     width:9%;
     height: 40%;
     text-align: center;
-    border: 0px solid red;
+    border-bottom: 2px solid white;
     margin-top:17px;
     margin-left: 20%;
     padding-top: 5px;
     margin-bottom: 13px;
     float: left;   
+         transition: 0.3s ease;
+        
     }
     .he1_2{
     width:9%;
     height: 40%;
     text-align: center;
-    border: 0px solid red;
+    border-bottom: 2px solid white;
     margin-top:17px;
     margin-left: 15%;
     padding-top: 5px;
     margin-bottom: 13px;
     float: left; 
+        transition: 0.3s ease;
+        
         }
     .ontop{
     position: fixed;
@@ -65,14 +69,15 @@ A:visited {
     .he1_1:hover{
     background-color:#282E3A;
      font-weight: bold;
-    font-size: 1.2em;
+        transform: scale(1.1);
 }
 
 .he1_2:hover{
     background-color:#282E3A;
      font-weight: bold;
-    font-size: 1.2em;
+    transform: scale(1.1);
     }
+    
     
 }
 
